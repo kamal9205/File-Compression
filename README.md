@@ -1,7 +1,7 @@
 # File-Compression
 A File Compression software that helps zip/Unzip files using these 2 algorihtms:
-Huffmans Code
-Lempel-Ziv-Wells algorithm
+  1. Huffmans Code
+  2. Lempel-Ziv-Wells algorithm
 
 # About Huffmans Code
 The Huffmans algo creates a 1-1 mapping for each byte of the input file and replaces each byte with the mapped bit sequence. For this you need to store a dictionary that describes each 1-1 mapping of input byte and binary sequence.(which needs extraspace)
